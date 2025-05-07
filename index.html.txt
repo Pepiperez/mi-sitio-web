@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tu mejor fibra</title>
+<style>
+body {
+margin: 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background: linear-gradient(rgba(173, 216, 230, 0.8), rgba(173, 216, 230, 0.8));
+text-align: center;
+}
+
+header {
+display: flex;
+justify-content: space-between;
+padding: 1rem 2rem;
+background-color: rgba(255, 255, 255, 0.95);
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header a {
+text-decoration: none;
+color: #0073e6;
+font-weight: bold;
+font-size: 1rem;
+}
+
+.main {
+padding: 5rem 2rem;
+}
+
+.main h1 {
+font-size: 2rem;
+margin-bottom: 2rem;
+color: #003366;
+}
+
+.main a.button {
+display: inline-block;
+padding: 0.75rem 1.5rem;
+background-color: #0073e6;
+color: #fff;
+border-radius: 4px;
+text-decoration: none;
+font-size: 1rem;
+}
+
+.main a.button:hover {
+background-color: #005bb5;
+}
+</style>
+</head>
+<body>
+<header>
+<a href="https://netllar.es/" target="_blank">Tu mejor fibra</a>
+<a href="https://netllar.es/blog" target="_blank">Sobre nosotros</a>
+</header>
+
+<div class="main">
+<h1>¿Buscas la mejor red de Fibra y Móvil de España?</h1>
+<a class="button" href="https://netllar.es/" target="_blank">La mejor tarifa para ti</a>
+</div>
+</body>
+</html>
